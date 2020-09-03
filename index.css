@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    max-width:100%;
+    box-sizing:border-box;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+}
+
+
+button {
+    display: inline-block;
+    border-radius: 20px;
+    width: 14%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 6em;
+    margin-right: 6em;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    color: white;
+}
+
+.buttonSection {
+    padding: 10px;
+    text-align: center;
+}
+
+.visitButton {
+    background-color: #FF764E;
+}
+
+.learnButton {
+    background-color: #5ED3EB;
+}
+
+.involvedButton {
+    background-color: #FFCD69;
+}
+
+
+
+.valley {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.upperSection {
+    padding: 40px;
+}
+
+#header {
+    padding: 40px 20px;
+}
+
+#header > * {
+    vertical-align:middle; 
+}
+
+.imageSection {
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.infoSection {
+    display: inline-block;
+    height: 100%;
+    width: 75%;
+    text-align: center;
+}
+
+.infoSection p {
+    margin-bottom: 20px;
+}
+
+.infoSection h1 {
+    font-family: 'Chelsea Market', cursive;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+.infoNarrow {
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+.content {
+    background-color: #DBB9A3;
+    padding: 20px;
+    color: white;
+}
+
+.content p {
+    padding-bottom: 20px;
+}
+
+
+.iconSection {
+    text-align: center;
+}
+
+.iconSection img {
+    width: 10%;
+}
+
+.icon {
+    margin-top: 30px;
+}
+
+.iconSection p {
+    width: 20%;
+    margin-left: 40%;
+    font-size: 16px;
+}
+
+.footerImage {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.footerButtons {
+    padding: 40px;
+    text-align: center;
+}
+
+.lowerSection {
+    background-color:#F9E7DC;
+}
+
+
